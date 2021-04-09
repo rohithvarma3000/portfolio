@@ -1,0 +1,41 @@
+.header-style{
+    color: black;
+    text-align: center;
+    height: 8vh;
+    font-size: 70px;
+    margin:2%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+}
+
+.main p{
+    font-size: xx-large;
+}
+.main a{
+    color:black;
+}
+.parallax{
+background-image: url("../images/devback.jpeg");
+min-height: 800px; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.home p{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: medium;
+}
+.home a{
+    color:black;
+}

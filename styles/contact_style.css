@@ -1,0 +1,148 @@
+body{
+    background-color: black;
+}
+.main {
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+.main h1{
+    font-family: 'Carter One', cursive;
+}
+.main p{
+    font-family: 'Heebo', sans-serif;
+}
+.contact{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:white;
+}
+
+.icon img{
+    height: 100px;
+    width: 100px;
+    transition: 2s;
+}
+
+.icon img:hover{
+    transform: scale(1.2);
+}
+.triangle{
+    display: flex;
+    flex-direction: row;
+}
+.triangle img{
+    
+    height: 180px;
+    width: fit-content;
+    animation: move1 20s ease infinite;
+}
+
+@keyframes move1 {
+    0%{
+    }
+    25%{
+        transform: translateX(1000px) rotate(360deg);
+    }
+    50%{
+        transform: translate(0px) rotate(720deg);
+    }
+    75%{
+        transform: translateY(600px) rotate(1080deg);
+    }
+    100%{
+        transform: translate(0px) rotate(1440deg);
+    }
+
+}
+.triangle2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.triangle2 img{
+    height: 200px;
+    width: fit-content;
+    animation: move2 20s ease infinite;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+@keyframes move2 {
+    0%{
+    }
+    25%{
+        transform: translateX(-1000px) rotate(360deg);
+    }
+    50%{
+        transform: translate(0px) rotate(720deg);
+    }
+    75%{
+        transform: translateY(-600px) rotate(1080deg);
+    }
+    100%{
+        transform: translate(0px) rotate(1440deg);
+    }
+
+}
+@media only screen and (max-width:1500px){
+    .contact{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color:white;
+    }
+    
+    .icon img{
+        height: 100px;
+        width: 100px;
+        transition: 2s;
+        margin-bottom: 10px;
+    }
+    
+    .icon img:hover{
+        transform: scale(1.2);
+    }
+    .triangle{
+        display: flex;
+        flex-direction: row;
+    }
+    .triangle img{
+        height: 200px;
+        width: fit-content;
+        margin-bottom: 50px;
+        animation: rot 10s ease infinite;
+    } 
+    .triangle2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .triangle2 img{
+        height: 200px;
+        width: fit-content;
+        margin-top: 50px;
+        animation: rot 10s ease infinite;
+    }
+    @keyframes rot {
+        100%{
+            transform: rotate(360deg);
+        }
+    
+    }
+}
+.home p{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Roboto Mono', monospace;
+}
+.home a{
+    color:black;
+} 
