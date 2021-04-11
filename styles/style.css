@@ -2,7 +2,7 @@ body {
     background-image:url(../images/back4.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: x-large;
+    font-size: 130%;
 
 }
 
@@ -24,7 +24,7 @@ body {
 }
 .box {
     display: flex;
-    padding: 10px;
+    padding: 1.5%;
     flex-direction: column;
     justify-content: space-evenly;
     transition: 1s ease;
