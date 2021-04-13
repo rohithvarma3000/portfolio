@@ -1,8 +1,6 @@
 body {
-    background-image:url(../images/back4.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 130%;
+    background-color: white;
+    font-size: 4vw;
 
 }
 
@@ -37,4 +35,12 @@ body {
 
 .box:hover {
     transform: scale(1.2);
+}
+@media only screen and (min-width:1500px){
+    body{      
+        background-image:url(../images/back4.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size:130%;
+    }
 }

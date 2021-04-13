@@ -10,7 +10,7 @@ body{
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    font-size: large;
+    font-size: 2vh;
 }
 .main h1{
     font-family: 'Carter One', cursive;
@@ -94,8 +94,13 @@ body{
 }
 @media only screen and (max-width:1800px){
     .main{
-        font-size: xx-large;
+        font-size: 3vw;
     }
+
+    .main .home p{
+        font-size:2vw;
+    }
+
     .contact{
         padding: 5%;
         display: flex;
@@ -105,8 +110,8 @@ body{
     }
     
     .icon img{
-        height: 25vw;
-        width: 25vw;
+        height: 20vw;
+        width: 20vw;
         transition: 2s;
         margin-bottom: 10%;
     }
@@ -143,9 +148,9 @@ body{
 }
 .home p{
     text-align: center;
-    font-size: medium;
+    font-size: 1.5vh;
     font-family: 'Roboto Mono', monospace;
 }
 .home a{
     color:black;
-} 
+}

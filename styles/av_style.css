@@ -5,7 +5,7 @@ body{
     color: black;
     text-align: center;
     height: 8vh;
-    font-size: 400%;
+    font-size: 7vh;
     margin:2%;
     font-family: 'Acme', sans-serif;
 }
@@ -23,7 +23,7 @@ body{
     margin-left: 3%;
 }
 .main p{
-    font-size: x-large;
+    font-size: 3vh;
     font-family: 'PT Sans Caption', sans-serif;
 }
 .game{
@@ -47,7 +47,7 @@ body{
 .home p{
     margin-top: 1vh;
     text-align: center;
-    font-size: medium;
+    font-size: 1.7vh;
     font-family: 'Roboto Mono', monospace;
 }
 .home a{
